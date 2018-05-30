@@ -1,0 +1,18 @@
+// Archer.idl : IDL source for Archer
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (Archer.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(3c3860bf-1147-439b-9a08-cf528fbad9ad),
+	version(1.0),
+]
+library ArcherLib
+{
+	importlib("stdole2.tlb");
+};
+
